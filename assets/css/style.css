@@ -20,7 +20,7 @@ body>main>article>form>fieldset div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 35%;
+    width: 46%;
 }
 
 body>main>article>form>fieldset>legend {
@@ -30,23 +30,50 @@ body>main>article>form>fieldset>legend {
 }
 
 body>main>article>form>fieldset {
-    margin-left: 20px;
+    margin-left: 65px;
+    width: 80%;
+    border: 1px solid #ccc;
+
 }
+
 
 body>main>article>form>fieldset>div.inputBottom {
     margin-bottom: 10px;
     justify-content: flex-start;
     gap: 10px;
+
 }
 
 body>main>article>form>fieldset>div.country>select {
-    width: 48%;
+    width: 149px;
+    border: 1px solid #ccc;
 }
 
 .picture {
-    width: 46%;
+    width: 61%;
 }
 
+
+
 body>main>article>form>fieldset>div.gender>div {
-    width: 47%;
+    width: 149px;
+}
+
+#languages {
+    margin-right: 87px;
+    border: 1px solid #ccc;
+}
+
+.name input,
+.surname input,
+.email input {
+    border: 1px solid #ccc;
+}
+
+body>main>article>form>fieldset>div.fieldOfActivity>div {
+    width: 150px;
+}
+
+#picture {
+    width: 298px;
 }
