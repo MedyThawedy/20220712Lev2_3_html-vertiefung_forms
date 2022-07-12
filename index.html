@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Lev2_3_html-vertiefung_forms</title>
+</head>
+
+<body>
+
+    <header></header>
+
+    <main>
+        <h1>Lev2_3_html-vertiefung_forms</h1>
+        <article>
+            <form action="">
+                <fieldset>
+                    <legend>Register form</legend>
+
+                    <div class="name">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div class="surname">
+                        <label>Surname</label>
+                        <input type="text" name="surname" id="surname" placeholder="Surname" />
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="mail" id="mail" placeholder="Email">
+                    </div>
+                    <div class="gender">
+                        <label for="">Gender</label>
+                        <label for="">Female</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="">Male</label>
+                        <input type="radio" name="gender" id="male" value="male">
+                    </div>
+                    <div class="picture">
+                        <label for="picture">Picture</label>
+                        <input type="file" name="picture" id="picture">
+                    </div>
+
+                    <div class="country">
+                        <label for="">Country</label>
+                        <select value="countries">
+                            <option value="Italy">Italy</option>
+                            <option value="Mali">Mali</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+                    </div>
+
+                    <div class="prefferdLanguage">
+                        <label for="">Preffered languages</label>
+                        <select value="languages" id="languages" size="4">
+                            <option name="" id="" value="HTML">HTML</option>
+                            <option name="" id="" value="Css">Css</option>
+                            <option name="" id="" value="JS">JS</option>
+                            <option name="" id="" value="React">React</option>
+                            <option name="" id="" value="PHP">PHP</option>
+                            <option name="" id="" value="Python">Python</option>
+                        </select>
+                    </div>
+                    <div class="fieldOfActivity">
+                        <label for="">Field of activity</label>
+                        <input type="checkbox" name="it" id="it" value="IT"> <label for="">IT</label>
+                        <input type="checkbox" name="design" id="design" value="Design"> <label for="">Design</label>
+                        <input type="checkbox" name="other" id="other" value="other"> <label for="">Other</label>
+                    </div>
+                    <div class="inputBottom">
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Cancel">
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+
+</body>
+
+</html>
